@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENAMON.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+            background-size: cover;
+            min-height: 100vh;
+            font-family: 'Arial', sans-serif;
+        }
+        .art-item img {
+            transition: transform 0.3s ease-in-out;
+        }
+        .art-item img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-purple-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">My Activity</h1>
+            <a href="index.html" class="bg-gray-800 text-white px-6 py-2 rounded-full hover:bg-gray-900 transition">
+                Back to Home
+            </a>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-10 p-4">
+        <section class="text-center mb-8">
+            <h2 class="text-4xl font-bold mb-4">My Artwork</h2>
+            <p class="text-lg">รวมผลงานวาดที่ดีที่สุดสำหรับเรา</p>
+        </section>
+
+        <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- เริ่มต้นการ์ดรูปภาพ -->
+            <div class="art-item bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="https://pbs.twimg.com/media/GfGpwyxaEAAE1Sm?format=jpg&name=large" alt="Artwork 1" class="w-full">
+                <div class="p-4">
+                    <h3 class="text-2xl font-bold">โอ้ยๆๆๆๆน่ารัก</h3>
+                    <p class="text-gray-600 mt-2">เป็นงานวาดครบรอบสองเดือนเรากับแฟน น่ารักมากโดยเฉพาะคนทางซ้ายน่ารักที่สุด</p>
+                </div>
+            </div>
+
+            <div class="art-item bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="https://pbs.twimg.com/media/GesctkwboAAW3uq?format=jpg&name=large" alt="Artwork 2" class="w-full">
+                <div class="p-4">
+                    <h3 class="text-2xl font-bold">ShizuMino</h3>
+                    <p class="text-gray-600 mt-2">คู่ชิปที่จริงใจของเราเองชอบพี่ชิโยไคสุดๆคู่กับมิโนริคือฟินเกิน</p>
+                </div>
+            </div>
+
+            <div class="art-item bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="https://pbs.twimg.com/media/GQ1GEsbaIAArwjc?format=jpg&name=large" alt="Artwork 3" class="w-full">
+                <div class="p-4">
+                    <h3 class="text-2xl font-bold">Nene chan</h3>
+                    <p class="text-gray-600 mt-2">อันนี้ไว้บอมแฟนนะครับ55555</p>
+                </div>
+            </div>
+
+            <div class="art-item bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="https://pbs.twimg.com/media/F_iJGgEaMAA9YN1?format=jpg&name=large" alt="Artwork 4" class="w-full">
+                <div class="p-4">
+                    <h3 class="text-2xl font-bold">HaruMino Shojo rei</h3>
+                    <p class="text-gray-600 mt-2">เป็นที่ไม่คิดว่าจะออกมาดีกว่าที่เราคิดเป็น1ในงานที่เราชอบเลย</p>
+                </div>
+            </div>
+
+            <div class="art-item bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="https://pbs.twimg.com/media/F_SF-EfbQAAp1-C?format=jpg&name=large" alt="Artwork 5" class="w-full">
+                <div class="p-4">
+                    <h3 class="text-2xl font-bold">Shizuku yokai</h3>
+                    <p class="text-gray-600 mt-2">งานที่วาดประกอบฟิคเกตัวเอง รักพี่ชิดั่งสามีตัวเองรักนะงื้อ</p>
+                </div>
+            </div>
+
+            <div class="art-item bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="https://pbs.twimg.com/media/F708ox2a0AAUWlF?format=jpg&name=large" alt="Artwork 6" class="w-full">
+                <div class="p-4">
+                    <h3 class="text-2xl font-bold">Airi chan</h3>
+                    <p class="text-gray-600 mt-2">วาดเล่นที่กลับออกมาดีอย่างไม่น่าเชื่อกะเทยงงมาก</p>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
